@@ -7,19 +7,21 @@
 
 
 .header{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    min-height: 50px;
     background-color: #1f2937;
     color: white;
-    
 }
-.header h1{
-    font-size: 24px;
+
+.header_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 490px;
+    margin-left: 30px;
+    min-height: 50px;
+}
+.header_logo{
+    font-size: 12px;
     font-weight: 800;
-    margin-left: 10px;
-    justify-content: flex-start;
 }
 
 ul{
@@ -27,7 +29,7 @@ ul{
     display: flex;
     gap: 20px;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .section_one{
@@ -56,7 +58,7 @@ ul{
 }
 
 .description{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .sign_up_button{
@@ -137,4 +139,32 @@ ul{
     color: #1f2937;
     font-size: 16px;
     font-weight: 500;
+}
+
+.section_three{
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote_text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 200;
+    max-width: 800px;
+}
+
+.quote_author{
+    font-size: 25px;
+    font-weight: 800;
+    color: #1f2937;
+    align-self: flex-end;
 }
